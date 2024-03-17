@@ -1,9 +1,25 @@
 import React from "react";
+import { Col, Image, Row } from "react-bootstrap";
 
 const BasicDetails = () => {
   return (
     <>
-      <h2 className="text-center s1">Jitendra Chatwani</h2>
+      <div>
+        <Row>
+          <Col sm={12} md={4}>
+            <Image
+              style={{ width: "150px", height: "180px" }}
+              className="float-left"
+              src={require("../../image/profile.jpg")}
+              roundedCircle
+            />
+          </Col>
+          <Col sm={12} md={6} className="d-flex align-items-center" style={{marginLeft:"4rem"}}>
+            <h2 className="s1">Jitendra Chatwani</h2>
+          </Col>
+        </Row>
+      </div>
+
       <hr />
       <p
         className="s2"
@@ -12,7 +28,7 @@ const BasicDetails = () => {
           textAlign: "center",
         }}
       >
-        Jaipur, 302029, Rajasthan
+        <strong>Address: </strong>Jaipur, 302029, Rajasthan
       </p>
       <p
         className="s2"
@@ -20,16 +36,32 @@ const BasicDetails = () => {
           textAlign: "center",
         }}
       >
-        (+91) 8559966618
+        <strong>Mobile: </strong>(+91) 8559966618
       </p>
       <p
+        className="s2"
         style={{
           textAlign: "center",
         }}
       >
-        <strong>Mail to : </strong>
+        <strong>Mail to: </strong>
         <a href="mailto:chatwanijitu@gmail.com" className="s2 text-primary">
           chatwanijitu@gmail.com
+        </a>
+      </p>
+      <p
+        className="s2"
+        style={{
+          textAlign: "center",
+        }}
+      >
+        <strong>Linkedin: </strong>
+        <a
+          href="https://www.linkedin.com/in/jchatwani"
+          target="blank"
+          className="s2 text-primary"
+        >
+          linkedin.com/in/jchatwani
         </a>
       </p>
     </>

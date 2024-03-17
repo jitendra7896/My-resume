@@ -3,9 +3,10 @@ import CompanyBasicDetails from "./company-basic-details";
 
 const Company1 = () => {
   return (
-    <>
+    <div className="mt-4">
       <CompanyBasicDetails companyName ="Cognizant Technology Solutions" designation=" Programmer Analyst" location="Jaipur, Rajasthan(WFH)" fromTo =" October-2020 – April-2023" />
-      <p className="s2" style={{paddingLeft:"1rem"}}><strong>Insurance Domain Project</strong></p>
+      <div className="dtb"/>
+      <p className="s2 mt-3" style={{paddingLeft:"1rem"}}><strong>Insurance Domain Project</strong></p>
       <ul id="l1">
         <li>
           <p
@@ -51,7 +52,7 @@ const Company1 = () => {
           </p>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

@@ -3,14 +3,15 @@ import CompanyBasicDetails from "./company-basic-details";
 
 const Company2 = () => {
   return (
-    <>
+    <div className="mt-3">
       <CompanyBasicDetails
         companyName="Surekha Technologies Pvt. Ltd."
         designation="Software Engineer"
         location="Ahmedabad, Gujrat"
         fromTo="May 2023 – Present"
       />
-      <p className="s2" style={{ paddingLeft: "1rem" }}>
+      <div className="dtb"/>
+      <p className="s2 mt-3" style={{ paddingLeft: "1rem" }}>
         <strong>Health Domain Project</strong> UAE Client
       </p>
       <ul id="l1">
@@ -72,7 +73,8 @@ const Company2 = () => {
           </p>
         </li>
       </ul>
-      <p className="s2" style={{ paddingLeft: "1rem" }}>
+      <div className="dtb"/>
+      <p className="s2 mt-3" style={{ paddingLeft: "1rem" }}>
         <strong>Education Domain Project</strong> UAE Client
       </p>
       <ul id="l1">
@@ -134,7 +136,7 @@ const Company2 = () => {
           </p>
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

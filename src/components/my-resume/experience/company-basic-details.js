@@ -21,7 +21,6 @@ const CompanyBasicDetails = (props) => {
           style={{
             paddingLeft: "5pt",
             textIndent: "0pt",
-            lineHeight: "0pt",
             textAlign: "left",
           }}
         >
@@ -45,7 +44,6 @@ const CompanyBasicDetails = (props) => {
           style={{
             paddingRight: "5pt",
             textIndent: "0pt",
-            lineHeight: "0pt",
             textAlign: "right",
           }}
         >
