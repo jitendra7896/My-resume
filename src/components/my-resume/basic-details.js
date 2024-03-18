@@ -4,17 +4,16 @@ import { Col, Image, Row } from "react-bootstrap";
 const BasicDetails = () => {
   return (
     <>
-      <div>
+      <div className="container">
         <Row>
-          <Col sm={12} md={4}>
+          <Col sm={12} md={4} className="d-flex justify-content-center">
             <Image
-              style={{ width: "150px", height: "180px" }}
-              className="float-left"
+            style={{height: "180px",width: "150px"}}
               src={require("../../image/profile.jpg")}
               roundedCircle
             />
           </Col>
-          <Col sm={12} md={6} className="d-flex align-items-center" style={{marginLeft:"4rem"}}>
+          <Col sm={12} md={6} className="d-flex justify-content-center align-items-center">
             <h2 className="s1">Jitendra Chatwani</h2>
           </Col>
         </Row>

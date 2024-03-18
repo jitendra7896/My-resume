@@ -12,7 +12,7 @@ const MyResume = () => {
     <Container>
       <Row className="justify-content-center">
         <Col>
-          <Card className="mt-4">
+          <Card className="mt-4 mb-4 d-flex justify-content-center">
             <Card.Body>
               <BasicDetails/>
               <hr />

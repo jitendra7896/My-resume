@@ -20,8 +20,7 @@ const AdditionalSkills = () => {
             style={{
               paddingTop: "4pt",
               paddingLeft: "41pt",
-              paddingRight: "72pt",
-              textIndent: "-18pt",
+              textIndent: "-10pt",
             }}
           >
             Proficient in conveying complex technical concepts to both technical
@@ -33,9 +32,8 @@ const AdditionalSkills = () => {
             class="s2"
             style={{
               paddingTop: "2pt",
-              paddingRight: "72pt",
               paddingLeft: "41pt",
-              textIndent: "-18pt",
+              textIndent: "-10pt",
             }}
           >
             Experienced in troubleshooting technical issues and implementing
@@ -47,9 +45,8 @@ const AdditionalSkills = () => {
             className="s2"
             style={{
               paddingTop: "3pt",
-              paddingRight: "72pt",
               paddingLeft: "41pt",
-              textIndent: "-18pt",
+              textIndent: "-10pt",
             }}
           >
             Demonstrated ability to contribute effectively to team discussions
@@ -61,9 +58,8 @@ const AdditionalSkills = () => {
             className="s2"
             style={{
               paddingTop: "3pt",
-              paddingRight: "72pt",
               paddingLeft: "41pt",
-              textIndent: "-18pt",
+              textIndent: "-10pt",
             }}
           >
             Flexible approach to learning new technologies and methodologies as

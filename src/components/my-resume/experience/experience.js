@@ -1,6 +1,7 @@
 import React from "react";
 import Company1 from "./cognizant-details";
 import Company2 from "./surekha-details";
+import { Card } from "react-bootstrap";
 
 const Experience = () => {
   return (
@@ -15,8 +16,12 @@ const Experience = () => {
       >
         PROFESSIONAL EXPERIENCE
       </p>
-      <Company2/>
-      <Company1/>
+      <Card>
+        <Company2 />
+      </Card>
+      <Card className="mt-4">
+        <Company1 />
+      </Card>
     </div>
   );
 };
